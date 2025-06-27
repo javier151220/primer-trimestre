@@ -1,0 +1,31 @@
+tupla=(1,2,3,4,5)
+print(tupla)
+num1=int(input("Ingresa el numero 1 :"))
+num2=int(input("Ingresa el numero 2 :"))
+num3=int(input("Ingresa el numero 3 :"))
+num4=int(input("Ingresa el numero 4 :"))
+num5=int(input("Ingresa el numero 5 :"))
+
+lista=list(tupla)
+lista.append(num1)
+lista.append(num2)
+lista.append(num3)
+lista.append(num4)
+lista.append(num5)
+print(f"la lista queda{lista}")
+
+print(tupla[1])
+longi=len(tupla)
+print(longi)
+print(len(tupla))
+pos=tupla.index(4)
+print(pos)
+repeti=tupla.count(2)
+print(repeti)
+
+tupli=("hola mi bro",15,5.8)
+print(tupli)
+
+t_externa=(1,2(10,20,30),4)
+valor1=t_externa[2][0]
+print(f"el valor de la tupla interna es igual a : {valor1}")
